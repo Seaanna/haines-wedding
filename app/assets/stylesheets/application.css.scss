@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+ .dancing {
+   font-family: 'Dancing Script', cursive;
+ }
+
+ .home_image_background {
+    background-image: image_url('proposal.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
