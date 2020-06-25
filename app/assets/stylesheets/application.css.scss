@@ -75,6 +75,14 @@
   background-size: cover;
 }
 
+.rainbow_image_background {
+  background-image: image_url('hawaii.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .title_wrapper {
   position: absolute;
   top: 50px;
@@ -119,7 +127,7 @@
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  height: 600px;
+  height: 100%;
 }
 
 .image_wrapper {
@@ -129,6 +137,27 @@
 
 .no_padding_bottom {
   padding-bottom: 0px;
+}
+
+.no_margin_bottom {
+  margin-bottom: 0px;
+}
+
+.margin_top_5 {
+  margin-top: 5px;
+}
+
+.iframe_form_wrapper {
+  position: relative;
+}
+
+.white_background {
+  background-color: white;
+  height: 100px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom: 0px;
 }
 
 @media (max-width: 600px) {
