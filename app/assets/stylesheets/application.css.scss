@@ -18,10 +18,141 @@
    font-family: 'Dancing Script', cursive;
  }
 
- .home_image_background {
-    background-image: image_url('proposal.jpg');
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+ body {
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+ }
+
+ iframe {
+  max-width: 100% !important;
+}
+
+.home_image_background {
+  background-image: image_url('proposal.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second_image_background {
+  background-image: image_url('drew_sea.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fourth_image_background {
+  background-image: image_url('skating.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fifth_image_background {
+  background-image: image_url('kiss.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sixth_image_background {
+  background-image: image_url('hands_up.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hotel_image_background {
+  background-image: image_url('hotel.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title_wrapper {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+
+.main_title {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  color: white;
+  padding: 10px 30px;
+  margin: auto;
+}
+
+.section_wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.event_detail_label {
+  margin-bottom: 6px;
+}
+
+.event_details {
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+.hotel_grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.image_grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  height: 600px;
+}
+
+.image_wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.no_padding_bottom {
+  padding-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+  .main_title {
+    font-size: 40px;
+    border-radius: 0px;
+    width: 100%;
   }
+
+  .home_image_background {
+    background-position: -280px center;
+  }
+
+  .second_image_background {
+    background-position: -200px center;
+  }
+
+  .hotel_grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 450px;
+  }
+
+  .image_grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
