@@ -13,4 +13,10 @@ class HomeController < ApplicationController
      expires: 1.year.from_now
     }
   end
+
+  def signout
+    cookies.delete :celebrate
+    
+    redirect_to root_path
+  end
 end
