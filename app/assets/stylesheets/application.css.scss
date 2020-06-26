@@ -75,7 +75,7 @@
   background-size: cover;
 }
 
-.rainbow_image_background {
+.last_image_background {
   background-image: image_url('hawaii.jpg');
   height: 100vh;
   background-position: center;
@@ -147,17 +147,8 @@
   margin-top: 5px;
 }
 
-.iframe_form_wrapper {
-  position: relative;
-}
-
-.white_background {
-  background-color: white;
-  height: 100px;
-  left: 0;
-  right: 0;
-  position: absolute;
-  bottom: 0px;
+.venmo {
+  max-width: 200px;
 }
 
 @media (max-width: 600px) {
@@ -183,5 +174,9 @@
   .image_grid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
+  }
+
+  .last_image_background {
+    background-position: -500px center;
   }
 }
