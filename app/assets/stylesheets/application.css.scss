@@ -75,8 +75,16 @@
   background-size: cover;
 }
 
-.last_image_background {
-  background-image: image_url('hawaii.jpg');
+.beach_image_background {
+  background-image: image_url('beach.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beach2_image_background {
+  background-image: image_url('beach2.jpg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,6 +138,14 @@
   height: 100%;
 }
 
+.image_grid_2 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  height: 100%;
+}
+
 .image_wrapper {
   position: relative;
   height: 100%;
@@ -173,7 +189,10 @@
 
   .image_grid {
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+  }
+
+  .image_grid_2 {
+    grid-template-columns: 1fr;
   }
 
   .last_image_background {
