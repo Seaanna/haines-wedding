@@ -95,6 +95,14 @@
   background-size: cover;
 }
 
+.hands_image_background {
+  background-image: image_url('hands.jpg');
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .title_wrapper {
   position: absolute;
   top: 50px;
@@ -181,7 +189,7 @@
 }
 
 #gifts_and_cards {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 @media (max-width: 600px) {
@@ -197,6 +205,10 @@
 
   .second_image_background {
     background-position: -200px center;
+  }
+
+  .hands_image_background {
+    background-position: -130px center;
   }
 
   .hotel_grid {
