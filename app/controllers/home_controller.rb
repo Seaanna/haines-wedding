@@ -8,15 +8,12 @@ class HomeController < ApplicationController
   end
 
   def celebrate
-    cookies[:celebrate] = {
-     value: true,
-     expires: 1.year.from_now
-    }
+    cookies[:celebrate] = { value: true, expires: 1.year.from_now }
   end
 
-  def signout
+  def meeting
     cookies.delete :celebrate
-    
-    redirect_to root_path
+
+    render 'index'
   end
 end

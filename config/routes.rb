@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get 'home/index'
   get 'celebrate' => 'home#celebrate'
-  get 'signout' => 'home#signout'
+  get 'meeting' => 'home#meeting'
 end
