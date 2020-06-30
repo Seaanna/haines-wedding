@@ -12,6 +12,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application' %>
+    <meta property="og:title" content="Drew & Sea-Anna are Getting Married">
+    <meta property="og:description" content="2020 has been a crazy year.
+      We got engaged 10/29/2019 and were so excited to plan our wedding.
+      We had no idea we'd be planning it during a pandemic!
+      We still want you to celebrate with us!"
+    >
+    <meta property="og:image" content="<%=asset_url('drew_sea.jpg') %>">
+    <meta property="og:url" content="<%= request.original_url %>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Haines Wedding 2020">
+    <meta name="twitter:image:alt" content="Drew & Sea-Anna">
   </head>
 
   <body>
