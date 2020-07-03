@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'celebrate' => 'home#celebrate'
   get 'meeting' => 'home#meeting'
+  get 'live-stream' => 'home#meeting'
 end
