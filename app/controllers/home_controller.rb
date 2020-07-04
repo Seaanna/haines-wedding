@@ -16,4 +16,8 @@ class HomeController < ApplicationController
 
     render 'index'
   end
+
+  def live_stream
+    redirect_to "https://stream.meet.google.com/stream/53a80f9c-4755-4fe1-aa72-fe000b78202e"
+  end
 end
