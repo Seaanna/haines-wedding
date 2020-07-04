@@ -18,6 +18,6 @@ class HomeController < ApplicationController
   end
 
   def live_stream
-    redirect_to "https://stream.meet.google.com/stream/53a80f9c-4755-4fe1-aa72-fe000b78202e"
+    redirect_to "https://www.twitch.tv/drewhaines3"
   end
 end
