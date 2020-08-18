@@ -180,6 +180,11 @@
   margin-bottom: 10px;
 }
 
+.live_stream_details {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
 .venmo {
   max-width: 200px;
 }
@@ -190,6 +195,26 @@
 
 #gifts_and_cards {
   padding-top: 50px;
+}
+
+.img_wrapper {
+  text-align: center;
+}
+
+.twitch_mobile {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  box-shadow: 3px 3px 12px -4px rgba(0,0,0,.51);
+}
+
+.twitch_desktop {
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  box-shadow: 3px 3px 12px -4px rgba(0,0,0,.51);
 }
 
 @media (max-width: 600px) {
